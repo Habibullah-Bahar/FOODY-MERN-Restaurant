@@ -18,7 +18,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:4000/api/v1/baharRoute/send",
+        "https://foody-mern-restaurant.onrender.com/api/v1/baharRoute/send",
         {
           firstName,
           lastName,
