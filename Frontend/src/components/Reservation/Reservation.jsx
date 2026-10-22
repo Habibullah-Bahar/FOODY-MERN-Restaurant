@@ -53,7 +53,7 @@ const Reservation = () => {
         <div className="overflow-hidden">
           <img
             src={reservationImage}
-            className="h-[300px] object-cover"
+            className="h-[300px] object-contain"
             alt=""
           />
         </div>
