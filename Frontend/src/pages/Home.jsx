@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar/Navbar";
 import About from "./About";
 import Qualities from "../components/Qualities/Qualities";
 import PopularMenu from "../components/Menu/PopularMenu";
-import Details from "../components/details/Details";
+import Details from "../components/Details/Details";
 import Team from "../components/Team/Team";
 import Reservation from "../components/Reservation/Reservation";
 import Footer from "../components/Footer/Footer";
