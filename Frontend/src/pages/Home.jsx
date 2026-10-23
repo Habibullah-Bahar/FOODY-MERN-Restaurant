@@ -17,7 +17,7 @@ const Home = () => {
       <About />
       <Qualities />
       <PopularMenu />
-      <Details />
+      <Details /> 
       <Team />
       <Reservation />
       <Footer />

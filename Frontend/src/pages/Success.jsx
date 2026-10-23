@@ -14,7 +14,7 @@ const Success = () => {
           clearInterval(timeId);
           navigate("/");
         } else return prev - 1;
-      });
+      }); 
     }, 1000);
     return () => clearInterval(timeId);
   }, [navigate]);
@@ -25,12 +25,12 @@ const Success = () => {
           <img
             src={timeoutImage}
             alt=""
-            className="max-w-[400px] drop-shadow-[5px_7px_8px_rgba(0,0,0,0.3)] "
+            className="sm:max-w-[400px] max-w-[250px] drop-shadow-[5px_7px_8px_rgba(0,0,0,0.3)] "
           />
         </div>
-        <h1 className="text-2xl"> Redirecting to Home in {countDown} seconds... </h1>
+        <h1 className="sm:text-2xl text-xl"> Redirecting to Home in {countDown} seconds... </h1>
         <Link to="/">
-          <button className="px-6 py-2 rounded-full border border-e-gray-700 flex items-center justify-between gap-3 cursor-pointer hover:scale-102">
+          <button className="sm:px-6 sm:py-2 px-4 py-1 rounded-full border border-e-gray-700 flex items-center justify-between gap-3 cursor-pointer hover:scale-102">
             <span>Back To Home </span>
             <FaArrowCircleRight className="text-lg" />
           </button>
